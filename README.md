@@ -1,2 +1,21 @@
-# alzheimers-disease-mortality-analysis-sas
-Multivariate statistical analysis of Alzheimer's disease mortality data using SAS, including MANOVA, Principal Component Analysis (PCA), and Factor Analysis.
+# Alzheimer's Disease Mortality Analysis Using SAS
+
+## Overview
+
+## Project Background
+
+## My Contribution
+
+## Dataset
+
+## Statistical Methods
+
+## Repository Structure
+
+## Results
+
+## Requirements
+
+## How to Reproduce the Analysis
+
+## Acknowledgments
