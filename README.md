@@ -7,12 +7,6 @@ The analysis includes Multivariate Analysis of Variance (MANOVA), Principal Comp
 
 ## Project Background
 
-## Project Background
-
-This project was completed as the final assignment for **STA 6707** under the supervision of **Dr. Raid Amin** at the University of West Florida. The class project investigated factors associated with Alzheimer's disease mortality across six U.S. states using multivariate statistical techniques.
-
-## Project Background
-
 This project was completed as the final assignment for **STA 6707** under the supervision of **Dr. Raid Amin** at the University of West Florida. The objective was to investigate factors associated with Alzheimer's disease mortality across six U.S. states using multivariate statistical methods implemented in SAS.
 
 The project was designed as a collaborative study in which the complete set of predictor variables was distributed among team members. Each student was responsible for conducting an in-depth analysis of two assigned variables and performing Principal Component Analysis (PCA) and Factor Analysis (FA) for one assigned state. While every student's report focused on their individual analyses, the PCA and FA were performed using the complete set of project variables rather than only the variables assigned to that student.
