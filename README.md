@@ -3,15 +3,15 @@
 
 This repository presents a graduate-level statistical analysis of Alzheimer's disease mortality data conducted in SAS as part of the STA 6707 course. The project applies multivariate statistical techniques to investigate relationships among demographic, health, environmental, and pollution-related variables associated with Alzheimer's disease mortality across selected U.S. states.
 
-The analysis includes Multivariate Analysis of Variance (MANOVA), Principal Component Analysis (PCA), and Factor Analysis (FA) to identify significant factors, explore variable relationships, and reduce data dimensionality. The repository contains the original SAS source code, project report, and dataset required to reproduce the analysis.
+The analysis includes Multivariate Analysis of Variance (MANOVA), Principal Component Analysis (PCA), and Factor Analysis (FA) to identify underlying patterns in the data, examine relationships among variables, and reduce data dimensionality. The repository contains the original SAS source code, project report, and dataset required to reproduce the analysis.
 
 ## Project Background
 
-This project was completed as the final assignment for **STA 6707** under the supervision of **Dr. Raid Amin** at the University of West Florida. The objective was to investigate factors associated with Alzheimer's disease mortality across six U.S. states using multivariate statistical methods implemented in SAS.
+This project was completed as the final assignment for STA 6707 under the supervision of Dr. Raid Amin at the University of West Florida.
 
-The project was designed as a collaborative study in which the complete set of predictor variables was distributed among team members. Each student was responsible for conducting an in-depth analysis of two assigned variables and performing Principal Component Analysis (PCA) and Factor Analysis (FA) for one assigned state. While every student's report focused on their individual analyses, the PCA and FA were performed using the complete set of project variables rather than only the variables assigned to that student.
+The full class project examined Alzheimer's disease mortality data across U.S. states. The states were divided into four regional groups: **North, South, East, and West**. Our team was assigned the **Northern region**, consisting of six states: **Michigan, Minnesota, Montana, North Dakota, Washington, and Wisconsin**.
 
-This repository contains my individual contribution to the project. My assigned variables were **Diabetes** and **Cancer**, and my PCA and Factor Analysis were performed for **Washington State** using the complete project dataset.
+Within our regional team, each student was assigned two variables for detailed analysis and one state for Principal Component Analysis (PCA) and Factor Analysis (FA). PCA and FA used the complete set of project variables but were applied only to each student's assigned state.
 
 ## My Contribution
 
@@ -19,9 +19,10 @@ This repository documents my individual contribution to the team project.
 My responsibilities included:
 
 - Investigating the relationships between **Diabetes**, **Cancer**, and Alzheimer's disease mortality using multivariate statistical analysis.
-- Performing **Principal Component Analysis (PCA)** and **Factor Analysis (FA)** for **Washington State** using the complete set of project variables, as required by the project design.
-- Interpreting statistical results and identifying significant patterns and relationships among the analyzed variables.
-- Developing and documenting the complete SAS implementation for my assigned analyses.
+- Evaluating statistical assumptions and applying appropriate data transformations prior to multivariate analysis.
+- Performing Principal Component Analysis (PCA) and Factor Analysis (FA) for **Washington State** using the complete set of project variables, as required by the project design.
+- Interpreting statistical results and identifying meaningful patterns and relationships among the analyzed variables.
+- Developing and documenting the SAS implementation for my assigned analyses.
 - Preparing the corresponding sections of the final technical report.
 
 The repository has been organized for GitHub while preserving the original analyses, SAS programs, and technical report submitted for the course project.
@@ -190,6 +191,6 @@ No additional SAS packages or external libraries are required beyond the standar
 
 This project was completed as part of the graduate course **STA 6707** at the **University of West Florida** under the supervision of **Dr. Raid Amin**.
 
-The original assignment was conducted as a collaborative team project. This repository contains only my individual contribution, including the statistical analyses, SAS implementation, and technical report corresponding to my assigned variables and state.
+I would like to thank Dr. Amin for his instruction in multivariate statistical methods and for designing this course project.
 
-I would like to thank Dr. Amin for his guidance in multivariate statistical methods and the design of this project.
+I also thank my teammates for their collaboration in the original course project while noting that this repository contains only my individual contribution.
