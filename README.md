@@ -137,10 +137,59 @@ Overall, the project demonstrates how multivariate statistical methods can be ap
 
 ## Repository Structure
 
-## Results
+```
+alzheimers-disease-mortality-analysis-sas/
+│
+├── README.md                              # Project documentation
+├── data/
+│   └── Alz_mortality_data_complete (1).csv    # Dataset used in the analysis
+├── docs/
+│   └── alzheimers_mortality_analysis_report.pdf
+├── sas/
+│   └── alzheimers_mortality_analysis.sas
+└── images/                                # Figures used in the README (optional)
+```
+
+- **README.md** – project overview, methodology, and instructions.
+- **data/** – dataset used in the statistical analyses.
+- **docs/** – technical report describing the methodology and results.
+- **sas/** – original SAS program used to perform the analyses.
+- **images/** – optional figures or screenshots for documentation.
 
 ## Requirements
 
+To reproduce this analysis, you will need:
+
+- SAS OnDemand for Academics, SAS Studio, or another SAS environment
+- The dataset included in the `data/` directory
+- The SAS program located in the `sas/` directory
+
+No additional SAS packages or external libraries are required beyond the standard SAS procedures used in this project.
+
 ## How to Reproduce the Analysis
 
+1. Clone or download this repository.
+
+2. Open the SAS program located in the `sas/` directory.
+
+3. If necessary, update the file path in the `PROC IMPORT` statement to match the location of the dataset on your SAS environment.
+
+4. Ensure that the dataset `Alz_mortality_data_complete (1).csv` is available in the location referenced by the SAS program.
+
+5. Run the SAS program sequentially. The workflow includes:
+   - Data import and preprocessing
+   - Normality assessment
+   - Data transformation
+   - MANOVA
+   - Principal Component Analysis (PCA)
+   - Factor Analysis (FA)
+
+6. Compare the generated statistical output with the report included in the `docs/` directory.
+
 ## Acknowledgments
+
+This project was completed as part of the graduate course **STA 6707** at the **University of West Florida** under the supervision of **Dr. Raid Amin**.
+
+The original assignment was conducted as a collaborative team project. This repository contains only my individual contribution, including the statistical analyses, SAS implementation, and technical report corresponding to my assigned variables and state.
+
+I would like to thank Dr. Amin for his guidance in multivariate statistical methods and the design of this project.
